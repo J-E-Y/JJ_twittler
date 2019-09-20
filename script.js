@@ -116,7 +116,7 @@ addingBtn.onclick = function(){
             "<div class ='comment'>"
             + "<span class ='user-comment'>" + addName.value + "</span>" 
             + "<span class ='time-comment'>" + generateObj.created_at + "</span>"
-            + "<div class ='message-comment>" + addText.value + "</div>" 
+            + "<div class ='message-comment'>" + addText.value + "</div>" 
             + "</div>");
 
     // 집어넣을 장소 output 안에 입력받은 1,2,3 (makingTweet 배열을 ) 대입한다.  

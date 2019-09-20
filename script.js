@@ -1,6 +1,9 @@
 
+
 //  1. 이름 날짜 댓글내용 출력하기 
 // printTweet()함수는 댓글 목록을 기존데이터에서 가져와서 화면에 보여준다. 
+
+
 
 
 
@@ -39,7 +42,6 @@ function printTweet(){
     }  
 }
 printTweet();
-
 
 
 
@@ -104,8 +106,9 @@ let addName = document.querySelector("#adding-name");
 // 입력받은 메시지를 불러온다.
 let addText = document.querySelector("#adding-text");
 
-// 등록버튼이 눌렀을때 
-addingBtn.onclick = function(){
+// 등록버튼이 눌렀을때
+ addingBtn.onclick = function(){
+ 
  let makingTweet = []; //  새로운배열을 만들고 
  let generateObj = generateNewTweet(); // date 를 불러온것을 
  // push를 통해 집어넣는다.what?
@@ -129,24 +132,29 @@ addingTweet();
 
 
 
+
+
 // 4. user 이름 눌렀을때 flitering 하기
+
 
 let fliterName = function(event) {
     if(event.target.className === 'user-comment') {
         for(var i=0; i< comments.children.length; i++) {
             if(event.target.innerHTML !== comments.children[i].children[0].innerHTML) {
                 comments.children[i].style.display = 'none';
-            } else {
-                comments.children[i].style.display = 'block';
-                refreshButton.innerHTML = 'Return & Clear';
-                refreshButton.onclick = function() {
+            }
+                
+            // 버튼을 바꾸고 
+            refreshButton.innerHTML = 'Return & Clear';
+            // 버튼을 클릭하면 
+            refreshButton.onclick = function() {
+            // 이전에 내용들 출력하기
+            // 다시 버튼을 이전의 것으로 바꾸고 
+            refreshButton.innerHTML = 'New Tweet';
+            printTweet();
+            randomTweet();
 
-                // 이전에 내용들 출력하기 
-                    refreshButton.innerHTML = 'New Tweet';
-                    printTweet();
-                    randomTweet();
-
-                }
+                
             }
         }
     }

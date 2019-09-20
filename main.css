@@ -2,8 +2,7 @@
   font-size: 2em;
   font-family: sans-serif;
   font-weight: bold;
-  border: 2px solid #ccc;
-  border-radius: 1em;
+    
   color: white;
   background-color: #eee;
   text-shadow: 0 0 5px #333;
@@ -12,28 +11,94 @@
   padding: 0.5em;
 }
 
-#user-writng {
-  font-size:20px;
-  background-color: #eee;
-  padding: 20px;
 
+
+/* wrting */
+
+
+#user-writing {
+  background : #eee;
+  margin: 17px;
+  
 }
-
-#tweetbtn {
+#adding-name {
+  font-size: 15pt;
+  width: 1383px;
+  height: 41px
+}
+#adding-text {
+  font-size:20pt;
+  width: 1383px;
+  height: 64px;
+}
+#adding-btn {
   background : #eee;
   padding: 5px;
+  font-size: 20px;
 }
+#adding-btn{
+  margin: 5px;
+}
+
+
+
+/* refresh-button */
+
+#refresh-div {
+  background-color: #eee;
+  margin: 16px;
+}
+
 
 #refresh-btn { 
   font-size: 20px;
+  margin: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* tweetList_comment */
 
 
 
 #comments {
   background-color:  #eee;
   box-shadow: 0 0 5px #333;
+  margin: 17px;
+  padding:20px;
+}
+
+/* hover 는 마우스가 text 를 닿는 순간 효과를 준다.*/
+span.user-comment:hover{
+  font-size: 150%;
+}
+
+.user-comment {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.user-comment {
+  font-size:15pt;
   
   
-  
+}
+
+.time-comment{
+  float:right;
+
+}
+
+.message-comment{
+  border-bottom: #333 1px solid;
+
+
 }

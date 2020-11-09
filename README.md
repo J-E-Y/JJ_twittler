@@ -1,14 +1,9 @@
-# twittler
+# Twitter Clone
 
-## 1. Into 
+### Description
 
-> HTML/CSS, JavaScript를 사용해서 Twitter Clone을 만들었습니다.Interactive web application을 만들면서 Front-end 개발의 전반적인 과정을 연습할 수 있는 좋은 기회였던것 같습니다.
+> I made a Twitter Clone by using HTML / CSS and JavaScript. While it's creating interactive web applications I had the opportunity to practice the overall process of front-end development
 
-
-## 2. Stack
-
-* Javascript / Html / Css
-
-## 3. Service Features
+### Preview
 
 ![min-project-twittler](https://user-images.githubusercontent.com/47516835/80579485-0fc27480-8a45-11ea-8de0-83843ab1fb25.gif)
